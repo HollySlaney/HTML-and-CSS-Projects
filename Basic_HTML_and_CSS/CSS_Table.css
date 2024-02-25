@@ -1,0 +1,9 @@
+table {
+	border: indigo; 
+	background-color: mediumturquoise;
+	color: thistle;
+}
+td:hover {
+	background-color: linen;
+	color: darkslategray;
+}
