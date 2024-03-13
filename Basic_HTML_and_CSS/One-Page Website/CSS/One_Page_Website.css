@@ -1,0 +1,41 @@
+body {
+    background-image: url("cheese-background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: gabriola;
+    font-size: 70px;
+}
+
+h2 {
+    color:indigo;
+    text-align: left;
+    font-family: gabriola;
+    font-size: 30px;
+}
+
+h3 {
+    color: indigo;
+    text-align: center;
+    font-family: gabriola;
+    font-size: 30px;
+}
+
+.form-spacer {
+    padding: 20px 39px;
+}
+
+nav {
+    color: indigo;
+    font-size: 40px;
+    text-align: center;
+    font-family: gabriola;
+    display: block;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
