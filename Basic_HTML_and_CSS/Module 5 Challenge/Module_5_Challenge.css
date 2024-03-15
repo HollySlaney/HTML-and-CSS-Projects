@@ -1,0 +1,129 @@
+.navbar {
+    background-color: moccasin;
+}
+.navbar a {
+    font-size: 100px;
+    color: indigo;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.column {
+    color: black;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3 {
+    color: darkcyan;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h3:hover {
+    background-color: black;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: sepia(75%);
+    border-radius: 16px;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.picture {
+    position: relative;
+    width: 50%
+}
+
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.picture:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+th {
+    background-color: lightcoral;
+}
+
+td {
+    padding-left: 30px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: lightcoral;
+}
+
+.centered {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 800%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+footer {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
